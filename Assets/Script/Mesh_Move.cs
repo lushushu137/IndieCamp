@@ -18,6 +18,7 @@ public class Mesh_Move : MonoBehaviour
         audioSource.PlayOneShot(fx_shoot);
 
         velocity = transform.forward * speed;
+
         // Destroy(gameObject, destroyTime);
     }
 
@@ -28,9 +29,11 @@ public class Mesh_Move : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other.name != "Spider") {
+        if (other.tag == "environment") {
             Debug.Log(other.name);
-            GameObject newMesh = Instantiate(spiderMeshAfter, transform.position, transform.rotation);
+            GameObject newMesh = Instantiate(spiderMeshAfter);
+            newMesh.transform.position = transform.position;
+            // newMesh.transform.LookAt(wall.transform);
             Destroy(gameObject);
             
         }

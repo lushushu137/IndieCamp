@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a49c3b0a02a4853912be31c187f99f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   spiderMeshAfter: {fileID: 3235054274171299468, guid: ef5445df8c1754c98965ef08c43fbbad, type: 3}
   fx_shoot: {fileID: 8300000, guid: 6f1c6a34fa2ca431fb9e060b198a67a1, type: 3}
 --- !u!82 &7650302235036324872

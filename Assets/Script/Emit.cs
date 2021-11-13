@@ -15,9 +15,9 @@ public class Emit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("j")) {
-            GameObject newMesh = Instantiate(spiderMesh, spiderMuzzle.position, spiderMuzzle.rotation);
-        }
+        // if (Input.GetMouseButtonDown(0)) {
+        //     GameObject newMesh = Instantiate(spiderMesh, spiderMuzzle.position, spiderMuzzle.rotation);
+        // }
         
     }
 }

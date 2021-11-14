@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7650302235036324875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.596455, y: -47.989773, z: 96.88353}
-  m_LocalScale: {x: 0.09196026, y: 0.096685335, z: 0.100154564}
+  m_LocalScale: {x: 0.09196026, y: 0.096685335, z: 1.110884}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -96,8 +96,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0685774, y: 1.0198641, z: 1.0311216}
+  m_Center: {x: -0.0019597418, y: 0.019390937, z: 0.0055610863}
 --- !u!54 &7650302235036324886
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a49c3b0a02a4853912be31c187f99f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   spiderMeshAfter: {fileID: 3235054274171299468, guid: ef5445df8c1754c98965ef08c43fbbad, type: 3}
   fx_shoot: {fileID: 8300000, guid: 6f1c6a34fa2ca431fb9e060b198a67a1, type: 3}
 --- !u!82 &7650302235036324872

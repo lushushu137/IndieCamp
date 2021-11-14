@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3646115507050119429}
   m_Layer: 0
   m_Name: spiderMeshAfter
-  m_TagString: Untagged
+  m_TagString: mesh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 3235054274171299468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.672325, y: 9.295737, z: 0}
-  m_LocalScale: {x: 0.96408105, y: 1, z: 0.096054}
+  m_LocalScale: {x: 2.7737396, y: 2.8770812, z: 0.27635515}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

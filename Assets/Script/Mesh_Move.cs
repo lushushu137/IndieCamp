@@ -18,8 +18,6 @@ public class Mesh_Move : MonoBehaviour
         audioSource.PlayOneShot(fx_shoot);
 
         velocity = transform.forward * speed;
-
-        // Destroy(gameObject, destroyTime);
     }
 
     // Update is called once per frame
@@ -32,8 +30,9 @@ public class Mesh_Move : MonoBehaviour
         if (other.tag == "environment") {
             Debug.Log(other.name);
             GameObject newMesh = Instantiate(spiderMeshAfter);
-            newMesh.transform.position = transform.position;
-            // newMesh.transform.LookAt(wall.transform);
+            GameObject wall = GameObject.Find("wall");
+            Vector3 pos = new Vector3(transform.position.x, transform.position.y, wall.transform.position.z);
+            newMesh.transform.position = pos;
             Destroy(gameObject);
             
         }
